@@ -1,0 +1,10 @@
+source_url,target_url,status_code,preserve_query_string,include_subdomains,subpath_matching,preserve_path_suffix
+www.floridagolfcoach.com/,https://floridagolfcoach.com/,301,true,false,true,true
+floridagolfcoach.net/,https://floridagolfcoach.com/,301,true,true,true,false
+thefloridagolfcoach.com/,https://floridagolfcoach.com/,301,true,true,true,false
+golfcoachflorida.com/,https://floridagolfcoach.com/,301,true,true,true,false
+golfcoachesflorida.com/,https://floridagolfcoach.com/,301,true,true,true,false
+bestgolfcoachflorida.com/,https://floridagolfcoach.com/,301,true,true,true,false
+bestgolfcoachesflorida.com/,https://floridagolfcoach.com/,301,true,true,true,false
+bestgolfinstructorsflorida.com/,https://floridagolfcoach.com/,301,true,true,true,false
+golflessonsflorida.net/,https://floridagolfcoach.com/,301,true,true,true,false
