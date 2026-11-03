@@ -71,6 +71,10 @@ export async function onRequestPost(context) {
   if (lead.phone.replace(/\D/g, '').length < 10) problems.push('mobile phone');
   if (!lead.bestTime) problems.push('best time to call');
   if (!lead.interest) problems.push('what you\u2019re interested in');
+  if (!lead.startTiming) problems.push('when you will be in Orlando');
+  if (!lead.stay) problems.push('how long you are staying');
+  if (!lead.score) problems.push('typical score');
+  if (!lead.goal) problems.push('your goal');
   if (!lead.consent) problems.push('permission to contact');
   if (problems.length) {
     return respond(wantsJson, 400, false, `Please check these fields: ${problems.join(", ")}.`);

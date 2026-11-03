@@ -5,6 +5,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB3BLBHWDH"></script>
 <script src="/analytics.js"></script>
 <meta charset="utf-8">
+<meta name="build-version" content="1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Florida Golf Coach for Winter and Seasonal Golfers | John Hughes Golf</title>
 <meta name="description" content="In Florida for the winter? Make it your best golf season yet with a plan built around your months here, from PGA Master Professional John Hughes in Orlando.">
@@ -207,23 +208,23 @@
           </div>
 
           <fieldset class="field choices">
-            <legend>When will you be in Orlando? <span class="optional">Optional</span></legend>
-            <label><input type="radio" name="start_timing" value="Already here"> Already here</label>
+            <legend>When will you be in Orlando?</legend>
+            <label><input type="radio" name="start_timing" value="Already here" required> Already here</label>
             <label><input type="radio" name="start_timing" value="Arriving this month"> Arriving this month</label>
             <label><input type="radio" name="start_timing" value="Arriving later this season"> Arriving later this season</label>
             <label><input type="radio" name="start_timing" value="Just planning ahead"> Just planning ahead</label>
           </fieldset>
 
           <fieldset class="field choices">
-            <legend>How long are you staying? <span class="optional">Optional</span></legend>
-            <label><input type="radio" name="length_of_stay" value="A week or two"> A week or two</label>
+            <legend>How long are you staying?</legend>
+            <label><input type="radio" name="length_of_stay" value="A week or two" required> A week or two</label>
             <label><input type="radio" name="length_of_stay" value="One to two months"> One to two months</label>
             <label><input type="radio" name="length_of_stay" value="Three months or more"> Three months or more</label>
           </fieldset>
 
           <div class="field">
-            <label for="score">Typical 18-hole score <span class="optional">Optional</span></label>
-            <select id="score" name="score">
+            <label for="score">Typical 18-hole score</label>
+            <select id="score" name="score" required>
               <option value="">Choose one</option>
               <option>Under 80</option>
               <option>80 to 89</option>
@@ -234,8 +235,8 @@
           </div>
 
           <div class="field">
-            <label for="goal">Your goal for this season <span class="optional">Optional</span></label>
-            <textarea id="goal" name="goal" rows="3" maxlength="300" aria-describedby="goal-count"></textarea>
+            <label for="goal">Your goal for this season</label>
+            <textarea id="goal" name="goal" rows="3" maxlength="300" required aria-describedby="goal-count"></textarea>
             <p class="hint" id="goal-count">300 characters left</p>
           </div>
 
